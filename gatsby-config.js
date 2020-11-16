@@ -5,7 +5,7 @@ module.exports = {
     // Your Name
     name: 'Nolan Bock',
     // Main Site Title
-    title: `Nolan Bock | Software Engineer`,
+    title: `Nolan Bock`,
     // Description that goes under your name in main bio
     description: `Software Engineer interested in robotics. I'm looking for internships and co-ops for Summer 2021!`,
     // Optional: Twitter account handle
