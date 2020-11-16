@@ -18,7 +18,7 @@ const classes = {
 };
 
 const Header = ({ metadata = {}, noBlog = false }) => {
-  const resume = get(metadata, 'resume', false);
+  //const resume = get(metadata, 'resume', false);
   const twitter = get(metadata, 'author', false);
   const github = get(metadata, 'github', false);
   const linkedin = get(metadata, 'linkedin', false);
@@ -41,7 +41,7 @@ const Header = ({ metadata = {}, noBlog = false }) => {
               <a
                 className={classes.link}
                 href="https://drive.google.com/file/d/1Q6hvuyVc26H-hgE-qbn-lIs1pB85uJLt/view?usp=sharing"
-              target="_blank" >
+              target="_blank" rel="noreferrer" >
                 Resume
               </a>
             </li>
@@ -51,7 +51,7 @@ const Header = ({ metadata = {}, noBlog = false }) => {
               <a
                 className={classes.link}
                 href={`https://twitter.com/${twitter}`}
-              target="_blank"
+              target="_blank" rel="noreferrer"
               >
                 Twitter
               </a>
@@ -59,14 +59,14 @@ const Header = ({ metadata = {}, noBlog = false }) => {
           )}
           {github && (
             <li className={classes.item}>
-              <a className={classes.link} href={github} target="_blank">
+              <a className={classes.link} href={github} target="_blank" rel="noreferrer">
                 GitHub
               </a>
             </li>
           )}
           {linkedin && (
             <li className={classes.item}>
-              <a className={classes.link} href={linkedin} target="_blank">
+              <a className={classes.link} href={linkedin} target="_blank" rel="noreferrer">
                 LinkedIn
               </a>
             </li>
