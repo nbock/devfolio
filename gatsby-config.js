@@ -1,75 +1,76 @@
 module.exports = {
   siteMetadata: {
     // Site URL for when it goes live
-    siteUrl: `https://elastic-meninsky-aa7c74.netlify.app/`,
+    siteUrl: `https://nolanbock.com`,
     // Your Name
-    name: 'Ryan Fitzgerald',
+    name: 'Nolan Bock',
     // Main Site Title
-    title: `Ryan Fitzgerald | Full-Stack Developer`,
+    title: `Nolan Bock | Software Engineer`,
     // Description that goes under your name in main bio
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit, ipsum.`,
+    description: `Software Engineer interested in robotics. I'm looking for internships and co-ops for Summer 2021!`,
     // Optional: Twitter account handle
-    author: `@rfitzio`,
+    author: `@nbock05`,
     // Optional: Github account URL
-    github: `https://github.com/ryanfitzgerald`,
+    github: `https://github.com/nbock`,
     // Optional: LinkedIn account URL
-    linkedin: `https://www.linkedin.com/in/ryanafitzgerald/`,
+    linkedin: `https://www.linkedin.com/in/nbock/`,
     // Content of the About Me section
-    about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
+    about: `I'm pursuing a master's degree in computer science at Northeastern University with a concentration in artificial intelligence and robotics. I'm a graduate teaching assistant, research assistant within the college of computer sciences and I work in simulation for MIT Driverless, MIT's student led autonomous racing team.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
-        name: 'Devfolio',
+        name: 'Ping Bot',
         description:
-          'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'Mobile robot that searches for sounds and drops a pin on a map to indicate them.',
+        link: 'https://github.com/nbock/cs5335-nm',
       },
       {
-        name: 'ChromeExtensionKit',
+        name: 'Minehunter',
         description:
-          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
-        link: 'https://chromeextensionkit.com/?ref=devfolio',
-      },
-      {
-        name: 'Another Cool Project',
-        description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'AI Minesweeper solver that solves 9x9 and 16x16 boards. Formualted as a constraint satisfaction problem',
+        link: 'https://github.com/nbock/dragons',
       },
     ],
+
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Acme Corp',
-        description: 'Full-Stack Developer, February 2020 - Present',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Khoury College of Computer Sciences',
+        description: 'Teaching Assistant, January 2020 - Present',
+        link: 'https://www.khoury.northeastern.edu/',
       },
       {
-        name: 'Globex Corp',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'MIT Driverless',
+        description: 'Software Engineer, September 2020 - Present',
+        link: 'http://driverless.mit.edu/',
       },
       {
-        name: 'Hooli',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Paradigm Hyperloop',
+        description: 'Software Engineer, September 2020 - Present',
+        link: 'https://paradigmhyperloop.com/',
+      },
+      {
+        name: 'The Helping Hands Lab',
+        description: 'Research Assistant, September 2020 - Present',
+        link: 'https://www2.ccs.neu.edu/research/helpinghands/',
       },
     ],
+
     // Optional: List your skills, they must have `name` and `description`.
     skills: [
       {
         name: 'Languages & Frameworks',
         description:
-          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
+          'C++, C, JavaScript, Java, Python, React, Ruby on Rails, Node.js, Bash, SQL, CSS, HTML',
       },
       {
-        name: 'Databases',
-        description: 'MongoDB, PostreSQL, MySQL',
+        name: 'Systems',
+        description: 'Linux, Windows, MacOS',
       },
       {
         name: 'Other',
         description:
-          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
+          'Robotic Operating System, Gazebo, Ubuntu, OMPL, Docker, Amazon Web Services (AWS), Microservices, API design, Agile / Scrum',
       },
     ],
   },
