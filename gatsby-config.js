@@ -15,7 +15,7 @@ module.exports = {
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/nbock/`,
     // Content of the About Me section
-    about: `I'm pursuing a master's degree in computer science at Northeastern University with a concentration in artificial intelligence and robotics. I'm a graduate teaching assistant, research assistant within the college of computer sciences and I work in simulation for MIT Driverless, MIT's student led autonomous racing team.`,
+    about: `I'm pursuing a master's degree in computer science at Northeastern University with a concentration in artificial intelligence and robotics. I'm a graduate teaching assistant, research assistant, and I work in simulation for MIT Driverless, MIT's student led autonomous racing team.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {

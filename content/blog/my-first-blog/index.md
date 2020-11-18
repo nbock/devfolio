@@ -1,7 +1,7 @@
 ---
-title: Roborace!
+title: Roborace event 1.1
 date: '2020-11-16T12:00:00.00Z'
-description: 'MIT Driverless takes on Roborace Event 1.1 in Thruxton'
+description: 'An autonomous vehicle racing league that I participate in with my team, MIT Driverless'
 ---
 
 ## Driverless takes on Roborace
@@ -13,4 +13,6 @@ A team I'm on, [MIT Driverless](http://driverless.mit.edu/), competed in Roborac
 ## Want to see more?
 Check out the race, our time starts at [3:09:00](https://www.youtube.com/watch?v=tKQAIDckIfU).\
 Want to learn more? [Kylie](https://www.youtube.com/channel/UCKMjvg6fB6WS5WrPtbV4F5g) on our perception team made a [video](https://www.youtube.com/watch?v=YvIVE91WWKc)! Subscribe to her page!\
-Check out our [team page](https://edgerton.mit.edu/clubs-teams/mit-driverless)
+Check out our [team page](https://edgerton.mit.edu/clubs-teams/mit-driverless)\
+Learn more about [Roborace](https://roborace.com/)\
+We're also competing in the [Indy Autonomous Challenge](https://www.indyautonomouschallenge.com/), a multi-agent indy autonomous car racing series.
