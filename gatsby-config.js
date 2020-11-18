@@ -7,7 +7,7 @@ module.exports = {
     // Main Site Title
     title: `Nolan Bock`,
     // Description that goes under your name in main bio
-    description: `Software Engineer interested in robotics. I'm looking for internships and co-ops for Summer 2021!`,
+    description: `Software Engineer interested in robotics and autonomous vehicles. I'm looking for internships and co-ops for summer 2021.`,
     // Optional: Twitter account handle
     author: `@nbock05`,
     // Optional: Github account URL
@@ -21,13 +21,13 @@ module.exports = {
       {
         name: 'Ping Bot',
         description:
-          'Mobile robot that searches for sounds and drops a pin on a map to indicate them.',
+          'Mobile robot that searches for sounds and drops a pin on a map to indicate them',
         link: 'https://github.com/nbock/cs5335-nm',
       },
       {
         name: 'Minehunter',
         description:
-          'AI Minesweeper solver that solves 9x9 and 16x16 boards. Formualted as a constraint satisfaction problem',
+          'AI Minesweeper solver that solves 9x9 and 16x16 boards. Formulated as a constraint satisfaction problem',
         link: 'https://github.com/nbock/dragons',
       },
     ],
