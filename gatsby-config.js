@@ -19,9 +19,9 @@ module.exports = {
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
-        name: 'Ping Bot',
+        name: 'Echo Bot',
         description:
-          'Mobile robot that searches for sounds and drops a pin on a map to indicate them',
+          'Mobile robot that navigates a maze to the loudest sound',
         link: 'https://github.com/nbock/cs5335-nm',
       },
       {
